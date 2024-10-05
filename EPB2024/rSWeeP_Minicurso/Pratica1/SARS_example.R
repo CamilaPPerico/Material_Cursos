@@ -1,5 +1,5 @@
 library(rSWeeP)
-setwd('~/UFPR/EVENTOS/EPB2024/minicursoSWeeP/')
+setwd('Material_Cursos/EPB2024/rSWeeP_Minicurso/Pratica1/')
 # vetorize as sequências de SARS-CoV-2
 sw = SWeePlite('SARSCoV2data/',seqtype='AA',psz=600,mask=c(2,1,2),bin=FALSE,verbose=T)
 
